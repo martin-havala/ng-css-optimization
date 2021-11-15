@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  --padding: 1em;
+}
+
+.un-wrapper {
+  background: white;
+  max-width: 55em;
+  margin: auto;
+
+  .title {
+    color: #112;
+  }
+}
+.wrapper {
+  .paragraph {
+    color: #002;
+    .highlight {
+      text-decoration: underline;
+      color: #28a;
+    }
+  }
+}

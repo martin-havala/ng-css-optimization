@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap");
+
+main {
+  font-family: "Exo", sans-serif;
+  font-size: 16pt;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  h-header,
+  h-footer {
+    flex: 0 0 3em;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+  }
+  h-body {
+    flex: 1 1 auto;
+  }
+}
