@@ -7,7 +7,7 @@ Setup needs to define a small config file which could be initiated by calling
 
 Also, it is better to say 'yes' to anything the tool provides and correct it afterwards. I had the lock and answered `no` to default main scss path and the initializer died ungracefully  ¯\\_(ツ)_/¯.
 
-Basic config is a json file `.ngx-unused-css.json` and it looks like this one, again a small test has shown that all parameters are kinda important to have:
+Basic config is a json file `.ngx-unused-css.json` and it looks like this one, again a small test has shown that all parameters are kinda important to have:  
 
 ```json
 {
