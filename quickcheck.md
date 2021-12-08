@@ -55,8 +55,8 @@ We could sum up results into small table (more detailed one can be found under [
 
 Here I'd like to point out to several things:
 
-1. Global stylesheet leads (naturally) to a smaller bundle, as it doesn't need to take care about scoping. Moreover it's a plain CSS, which is in contrast to components JS. Here we need some syntactic sugar for style definition & encapsulation variant.
-2. Flattened CSS has always better result, which is a natural thing. What is important to notice here is, that Angular ads an specific attribute selector template `[_ngcontent-%COMP%]` to **each** selector in the chain, so the redundancy is multiplied.  
+1. Global stylesheet leads to a smaller bundle, as it doesn't need to take care about scoping. Moreover it's a plain CSS, which is in contrast to component styles packed in JS. Here we need some syntactic sugar for style definition & encapsulation variant.
+2. Flattened CSS has always better result, which is a natural thing. The important thing to notice here is that Angular ads an specific attribute selector template `[_ngcontent-%COMP%]` to emulate view encapsulation. And it does it for **each** selector in the chain, so the redundancy is multiplied.  
    Excerpt from the compiled JS file looks like:
    ```css 
    .wrapper[_ngcontent-%COMP%] .paragraph[_ngcontent-%COMP%]   .highlight[_ngcontent-%COMP%]{text-decoration: …}
