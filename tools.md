@@ -31,6 +31,8 @@ Trying to be an optimist, let's do some internet check:
  
     Angular-ready setup for your project. Honestly I did find purge-css setup painful and guys from [ngneat](https://github.com/ngneat) have proven to be a great help for Angular community again. But please keep in mind the warning from previous paragraph.
 
+* [es-css-modules](https://github.com/jacobp100/es-css-modules) - Another conncept for modular CSS (they seem to do even uglification), but I don't find it relevant for NG project.
+
 
 * Similar libraries just for evidence (I'm skeptical about their practical use in any Angular project):
   * [purifycss](https://github.com/purifycss/purifycss)

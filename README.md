@@ -24,8 +24,8 @@ More of them is listed within  [CSS Optimizations](./css-best-practices.md).
 
 ## Project setup
 Some optimizations can already happen here. As most of the styles are imported when you're using some shared UI framework, just check the frameworks documentation.
-> For example [Angular Material](https://material.angular.io/) theme styles can be generated globally for all components, but you can also select just a subset of imports by omitting ```@include mat.all-component-themes($my-theme)``` and using partial imports like  ``` @include mat.button-theme($my-theme)``` instead. For more information check the [official guide](https://material.angular.io/guide/theming#applying-a-theme-to-components).  
-> [Bootstrap](https://ng-bootstrap.github.io/#/home) offers slightly different [modus operandi](https://ng-bootstrap.github.io/#/getting-started#imports).
+> For example [Angular Material](https://material.angular.io/) theme styles can be generated globally for all components, but you can also select just a subset of imports by omitting ```@include mat.all-component-themes($my-theme)``` and using partial imports like  ``` @include mat.button-theme($my-theme)``` instead. For more information check the [official guide](https://material.angular.io/guide/theming#applying-a-theme-to-components). These changes happen in your SCSS files.  
+> [Bootstrap](https://ng-bootstrap.github.io/#/home) offers similar [modus operandi](https://ng-bootstrap.github.io/#/getting-started#imports), but as they rather import bootstrap styles from original [Bootstrap](https://getbootstrap.com/) library - which also offers [lean approach](https://getbootstrap.com/docs/5.0/customize/optimize/) to help you ship used necessary styles only.
 
 # Approach shift
 
